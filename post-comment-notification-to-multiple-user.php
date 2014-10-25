@@ -315,5 +315,12 @@ function function_email_members($post_ID)
 * Adding action
 * Action for sending email for the particular email list.
 */
-add_action('save_post', 'function_email_members');
+
+/*
+add_action('save_post', 'function_email_members'); 
+ * comment By Sandeep Kumawat
+ * Date : 13-june-2014
+ * Issue: Stop all mail alerts for add new post in admin section
+ * 
+ * */
 ?>
